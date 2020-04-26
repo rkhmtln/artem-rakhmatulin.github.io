@@ -5,15 +5,25 @@ body {
     margin-left: 20%;
     margin-right: 20%;
     font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
 }
 
 h1 {
     text-align: center;
+    font-size: 1.7em;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: normal;
 }
 
 /* Classes */
 
 .withBorder {
-    border: 2px dotted black;
+    border: medium dotted #777;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
     padding: 10pt;
 }
