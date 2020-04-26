@@ -1,11 +1,10 @@
 /* Elements */
 
 body {
-    background-color: #ffffff;
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
     margin-left: 20%;
     margin-right: 20%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
 }
 
 h1 {
@@ -18,12 +17,46 @@ h2 {
     font-weight: normal;
 }
 
+/* IDs */
+
+#footer {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 /* Classes */
 
 .withBorder {
-    border: medium dotted #777;
+    border-style: dashed;
+    border-color: #777;
+    border-width: thin;
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
-    padding: 10pt;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Media Queries */
+
+@media screen and (max-device-width: 1125px) {
+    body {
+        font-size: x-large;
+    }
+
+    .withBorder {
+        width: 100%;
+    }
+}
+
+@media screen and (min-device-width: 1126px) {
+    body {
+        font-size: medium;
+    }
+
+    .withBorder {
+        width: fit-content;
+    }
 }
