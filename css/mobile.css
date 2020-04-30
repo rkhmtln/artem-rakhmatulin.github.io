@@ -1,0 +1,17 @@
+body {
+    font-size: 50px;
+}
+
+body#withBorder {
+    width: 90%;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+div#photo {
+    width: 100%;
+    text-align: center;
+}

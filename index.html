@@ -3,28 +3,58 @@
   <head>
     <meta charset="utf-8">
     <title>Artem Rakhmatulin</title>
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 1919px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1920px)"/>
+    <link rel="stylesheet" href="./css/dev.css">
   </head>
-  <body class="withBorder">
-    <h1>ARTEM RAKHMATULIN</h1>
-    <img src="./images/selfie.jpg" alt="My Photo" width="150" height="150"/>
-    <h2>My Bio:</h2>
-    <p>33 y.o. iOS-developer from Moscow/Valencia</p>
-    <h2>My Apps:</h2>
-    <ul>
-      <li><a href="https://apps.apple.com/app/id1308540467" title="App's page on the App Store" target="_blank">Scholar</a></li>
-      <li><a href="https://apps.apple.com/app/id892935435" title="App's page on the App Store" target="_blank">Insanity</a></li>
-    </ul>
-    <h2>Apps With My Contribution:</h2>
-    <ul>
-      <li><a href="https://apps.apple.com/app/id1403813549" title="App's page on the App Store" target="_blank">Netprint</a></li>
-    </ul>
-    <h2>My Contacts:</h2>
-    <ul>
-      <li><a href="mailto:rakhmatulin@gmail.com">Email</a></li>
-      <li><a href="https://t.me/artem_rakhmatulin" target="telegram">Telegram</a></li>
-      <li><a href="https://github.com/artem-rakhmatulin" target="_blank">GitHub</a></li>
-    </ul>
-    <p id="footer">Copyright &#169; 2020 Artem Rakhmatulin</p>
+  <body id="withBorder">
+
+    <div id="header">
+      <h1>ARTEM RAKHMATULIN</h1>
+    </div>
+
+    <div class="table">
+
+      <div id="main" class="tableRow">
+
+        <div id="photo" class="tableCell">
+          <img src="./images/selfie.jpg" alt="My Photo"/>
+        </div>
+
+        <div id="content" class="tableCell">
+          <div id="bio">
+            <h2>My Bio:</h2>
+            <p>33 y.o. iOS-developer from Moscow/Valencia</p>
+          </div>
+      
+          <div id="apps">
+            <h2>My Apps:</h2>
+            <ul>
+              <li><a href="https://apps.apple.com/app/id1308540467" title="App's page on the App Store" target="_blank">Scholar</a></li>
+              <li><a href="https://apps.apple.com/app/id892935435" title="App's page on the App Store" target="_blank">Insanity</a></li>
+            </ul>
+            <h2>Apps With My Contribution:</h2>
+            <ul>
+              <li><a href="https://apps.apple.com/app/id1403813549" title="App's page on the App Store" target="_blank">Netprint</a></li>
+            </ul>
+          </div>
+      
+          <div id="contacts">
+            <h2>My Contacts:</h2>
+            <ul>
+              <li><a href="mailto:rakhmatulin@gmail.com">Email</a></li>
+              <li><a href="https://t.me/artem_rakhmatulin" target="telegram">Telegram</a></li>
+              <li><a href="https://github.com/artem-rakhmatulin" target="_blank">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>Copyright &#169; 2020 Artem Rakhmatulin</p>
+    </div>
+
   </body>
 </html>

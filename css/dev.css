@@ -1,0 +1,27 @@
+body#withBorder {
+    background-color: tan;
+}
+
+#header {
+    background-color: coral;
+}
+
+#footer {
+    background-color: cornflowerblue;
+}
+
+div#main {
+    background-color: saddlebrown;
+}
+
+div#photo {
+    background-color: deeppink;
+}
+
+div#content {
+    background-color: lightgreen;
+}
+
+div#content div {
+    background-color: slateblue;
+}

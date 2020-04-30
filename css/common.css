@@ -1,0 +1,32 @@
+body {
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 20%;
+}
+
+body#withBorder {
+    border: dashed thin #777;
+    margin: 10px auto;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 170%;
+}
+
+h2 {
+    font-size: 130%;
+    font-weight: normal;
+}
+
+#header {
+    border-bottom: dashed thin #777;
+    text-align: center;
+}
+
+#footer {
+    font-size: 70%;
+    text-align: center;
+    margin:0px;
+    border-top: dashed thin #777;
+}
