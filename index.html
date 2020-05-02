@@ -4,57 +4,69 @@
     <meta charset="utf-8">
     <title>Artem Rakhmatulin</title>
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 1919px)">
-    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1920px)"/>
-    <link rel="stylesheet" href="./css/dev.css">
+    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-device-width: 1919px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-device-width: 1920px)"/>
   </head>
-  <body id="withBorder">
+  <body>
 
-    <div id="header">
+    <header id="header">
       <h1>ARTEM RAKHMATULIN</h1>
-    </div>
+    </header>
 
-    <div class="table">
+    <main id="table">
 
-      <div id="main" class="tableRow">
+      <div class="tableRow">
 
-        <div id="photo" class="tableCell">
+        <figure id="photo" class="tableCell">
           <img src="./images/selfie.jpg" alt="My Photo"/>
-        </div>
+          <figcaption>Yes. It's me.</figcaption>
+        </figure>
 
-        <div id="content" class="tableCell">
-          <div id="bio">
-            <h2>My Bio:</h2>
-            <p>33 y.o. iOS-developer from Moscow/Valencia</p>
-          </div>
+        <section id="textContent" class="tableCell">
+          
+          <article>
+            <header>
+              <h2>My Bio:</h2>
+            </header>
+            <p>33 y.o. iOS-developer from Moscow, Russia / Valencia, Spain.</p>
+          </article>
       
-          <div id="apps">
-            <h2>My Apps:</h2>
+          <article>
+            <header>
+              <h2>My Apps:</h2>
+            </header>
             <ul>
               <li><a href="https://apps.apple.com/app/id1308540467" title="App's page on the App Store" target="_blank">Scholar</a></li>
               <li><a href="https://apps.apple.com/app/id892935435" title="App's page on the App Store" target="_blank">Insanity</a></li>
             </ul>
-            <h2>Apps With My Contribution:</h2>
+          </article>
+
+          <article>
+            <header>
+              <h2>Apps With My Contribution:</h2>
+            </header>
             <ul>
               <li><a href="https://apps.apple.com/app/id1403813549" title="App's page on the App Store" target="_blank">Netprint</a></li>
             </ul>
-          </div>
+          </article>
       
-          <div id="contacts">
-            <h2>My Contacts:</h2>
+          <article>
+            <header>
+              <h2>My Contacts:</h2>
+            </header>
             <ul>
               <li><a href="mailto:rakhmatulin@gmail.com">Email</a></li>
               <li><a href="https://t.me/artem_rakhmatulin" target="telegram">Telegram</a></li>
               <li><a href="https://github.com/artem-rakhmatulin" target="_blank">GitHub</a></li>
             </ul>
-          </div>
-        </div>
+          </article>
+        </section>
       </div>
-    </div>
+    </main>
 
-    <div id="footer">
+    <footer id="footer">
       <p>Copyright &#169; 2020 Artem Rakhmatulin</p>
-    </div>
+    </footer>
 
   </body>
 </html>
