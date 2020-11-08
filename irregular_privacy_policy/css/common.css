@@ -1,0 +1,23 @@
+body {
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 170%;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 130%;
+    font-weight: normal;
+}
+
+#header {
+    text-align: center;
+}
+
+#footer {
+    font-size: 70%;
+    text-align: center;
+}
